@@ -34,6 +34,9 @@ header{
 header img{
 
     width: 15%;
+    height: 15%
+    ;
+    padding: 10px;
 }
 
 .encabezado1{
@@ -42,12 +45,107 @@ header img{
     width: 40%;
     justify-content: space-around;
     list-style: none;
+    ;
      
 }
 
- div img{
+div img{
+    position: relative;
 
-width: 100%;
- 
+    display: block;
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .div1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "spotify2";
+   color: white;
+   font-size: 40px;
+   width: 60%;
+  }
 
-}
+  .first-articleh2{
+
+    
+        font-family: "spotify2";
+        width:16%;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        border-bottom: 3px solid rgb(29, 245, 173);
+        line-height: 1.5em;
+        padding-bottom: 3px;
+        margin-left: 45%;
+        
+      }
+
+      .container1{
+
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding:20px;
+        justify-content: center;
+
+
+
+
+      }
+
+      .caja1{
+
+        border: 1px solid white;
+        font-family: "spotify1"
+        ;
+        width: 20%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 60px;
+        margin: 0px;
+        
+
+      }
+
+      .emoti{
+
+        width: 40%;
+        left: 30%;
+
+      }
+
+
+      .h3verde{
+
+        color: rgb(29, 245, 173);
+      }
+    
+      .paragraf1{
+
+        text-align: center;
+        
+        
+
+      }
+
+      
+      
+      
+  
+   
+
+
+    
+
+
+  
+
+  }
+  
