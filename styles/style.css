@@ -6,3 +6,48 @@ Green: #00B172
 White: #FFF
 
 */
+@font-face{
+
+    font-family: "spotify1";
+    src: url("/FONTS/Circular/CircularStd-Bold.otf");
+}
+    @font-face{
+
+        font-family: "spotify2";
+        src: url("/FONTS/Circular/CircularStd-Book.otf");
+    }
+    @font-face{
+
+        font-family: "spotify3";
+        src: url("/FONTS/Circular/CircularStd-Medium.otf");
+}
+
+header{
+
+    font-family:"spotify2";
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+
+}
+
+header img{
+
+    width: 15%;
+}
+
+.encabezado1{
+
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    list-style: none;
+     
+}
+
+ div img{
+
+width: 100%;
+ 
+
+}
